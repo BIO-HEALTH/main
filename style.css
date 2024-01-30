@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow: auto;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px !important;
+    color: #1a345c;
+    font-weight: 600 !important;
+    margin-bottom: 60px !important;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #6de0e4;
+}
+
+#logo{
+    width: 200px;
+    padding: 0.5rem;
+}
+nav{
+    height: 100% !important; 
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+}
+
+nav a{
+    font-size: 25px;
+    color: #1a345c;
+}
+
+nav a:hover{
+    background-color: #1a345c;
+    color: #6de0e4;
+}
+
+img{
+    width: 60px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    color: #1a345c;
+    font-weight: 500 !important;
+}
+
+
+table{
+    border-spacing: 20px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+td{
+    padding-left: 20px !important;
+}
+
+#secondSection{
+    width: 100%;
+    height: 1000px;
+}
+
+.stago, .sarstedt, .dxgen, .diagast{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.sarstedt .prod img{
+    width: 92%;
+}
+
+.prod{
+    height: 100%;
+    width: 20%;
+    
+}
+
+.prod img{
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+
+figcaption{
+    text-align: center;
+}
+
+figcaption, span{
+    color:#02507a;
+}
+
+.prod-logo{
+    border-left: 1px solid #02507a;
+}
+
+figcaption a{
+    color: #1a345c;
+}
+
+figcaption a:hover{
+    color: #6de0e4;
+}
+
+main{
+    margin-bottom: 180px;
+}
